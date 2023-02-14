@@ -1,0 +1,29 @@
+---
+import Button from "../components/Button.astro";
+import ButtonUnderline from "../components/Button_underline.astro";
+
+---
+
+<section class="flex flex-col items-center justify-center pt-[15rem]">
+  <div class="w-[10rem] rounded-full shadow-2xl mb-[5rem]">
+    <img src="https://github.com/augustCaio.png" alt="" />
+  </div>
+  <div class="flex items-center justify-center">
+    <h2 class="font-[800] text-[2rem] text-dark-blue">Hello</h2>
+    <img
+      class="w-[2.5rem]"
+      src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif"
+      alt="hello han"
+    />
+    <h2 class="font-[800] text-[2rem] text-dark-blue">There, I'm</h2>
+  </div>
+  <div class="flex items-center gap-[0.5rem]">
+    <h3 class="font-[900] text-[5rem] text-dark-blue">Caio</h3><span
+      class="font-[900] text-[5rem] text-light-blue animate__animated animate__bounce">Augusto</span
+    >
+  </div>
+  <div class="flex items-center justify-center mt-[1.5rem] gap-[1rem]">
+    <Button />
+    <ButtonUnderline />
+  </div>
+</section>
